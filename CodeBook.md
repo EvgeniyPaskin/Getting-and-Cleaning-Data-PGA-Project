@@ -61,10 +61,13 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
+Script specifics
+----------------
 For this project only mean and standard deviation features was used
 - mean(): Mean value
 - std(): Standard deviation
 
+The script aggregates the data averaging each variable for each activity and each subject. 
 
 Notes
 ------
