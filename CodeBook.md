@@ -67,7 +67,10 @@ For this project only mean and standard deviation features was used
 - mean(): Mean value
 - std(): Standard deviation
 
-The script aggregates the data averaging each variable for each activity and each subject. 
+After reading data the script combines it into one Data Frame.
+The Data Frame receives proper variables naming.
+The script then aggregates the data averaging each variable for each activity and each subject. 
+As a final step, the resulting data frame is written to a txt file called "independent_tidy_data_set.txt"
 
 Notes
 ------
